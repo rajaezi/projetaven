@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<style>
+		body {
+			/* font-family: Arial, sans-serif; */
+			background-color: #f2f2f2;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+        .p{
+            text-align: center;
+			margin-top: 50px;
+        }
+		form {
+			max-width: 500px;
+			margin: 0 auto;
+			background-color: #5e2e2e;
+			padding: 20px;
+			/* border-radius: 5px; */
+			/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		input[type="reset"] {
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 20px;
+		}
+		input[type="reset"]:hover {
+			background-color: #125214;
+		}
+        /* .e{
+            visibility: hidden;
+        } */
+        
+    table {
+  width: 100%;
+  border: 1px solid;
+}
+tr:hover {background-color: coral;}
+	</style>
+</head>
+<body>
+    <form>
+    <!-- border="3" align="center" class="e" -->
+     <table> 
+	   
+       <th><h1>Quiz 1</h1></th> 
+       <th><h1>Quiz 2</h1></th> 
+
+   
+	
+		<tr> 
+            
+        <td>
+            <p >Question 1: What is the capital of France?</p>
+		<label><input type="radio" name="q1" value="1">Paris</label>
+		<label><input type="radio" name="q1" value="2">Madrid</label>
+		<label><input type="radio" name="q1" value="3">Rome</label>
+
+</td>
+<td>
+    <p >Question 1: What is the capital of France?</p>
+    <label><input type="checkbox" name="answer" value="1">Paris</label>
+    <label><input type="checkbox" name="answer" value="1">Madrid</label>
+    <label><input type="checkbox" name="answer" value="1">Rome</label>
+
+</td>
+</tr> 
+
+</table>
+		<input type="reset" value="done">
+        <input type="reset" value="reset">
+
+	</form>
+</body>
+</html>
